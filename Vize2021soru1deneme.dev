@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+int faktoriyel(int);
+int main(void) {
+	int seriToplami;
+	int adim;
+	printf("Islem kac adim boyunca devam etsin? : "); scanf("%d",&adim);
+	int i;
+	for(i=1;i<=adim;i++){
+		seriToplami=pow(x,i)/faktoriyel(i);
+	}
+	printf("Seri toplaminin sonucu = %d 'dir.",seriToplami);
+	
+	
+	
+	
+	
+	return 0;}
+	
+int faktoriyel(int sayi){
+	int sayac,faktoriyel=1;
+	for(sayac=1;sayac<=sayi;sayac++){
+		faktoriyel=faktoriyel*sayac;
+	}
+	return faktoriyel;}
