@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-//Programlama-1 Final2021 Soru-2 çözüm:
+//Programlama-1 Final2021 Soru-2 Ã§Ã¶zÃ¼m:
 int Karsilastirici(char[],char);
 
 int main(void) {
@@ -9,7 +9,7 @@ int main(void) {
     char tek_[36]="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     char cift[36]="9Z8Y7X6W5V4U3T2S1R0QPONMLKJIHGFEDCBA";
 	char veri_[]="ERCIYES UNV";
-	char kodlu_[36];//kodlu veriyi tutmak için tanýmladýðýmýz dizimiz.
+	char kodlu_[36];//kodlu veriyi tutmak iÃ§in tanimladigimiz dizimiz.
 	int ks=strlen(veri_);
 	int i;
 	
